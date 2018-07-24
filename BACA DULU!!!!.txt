@@ -1,5 +1,8 @@
 Laravel ini menggunakan versi 5.5
 
+untuk panduan git secara singkat bisa lihat di:
+http://rogerdudler.github.io/git-guide/index.id.html
+
 proyek website desa untuk kegiatan KKN 44 UNMUL
 
 website ini belum selesai sepenuhnya dan sengaja saya share di github agar teman"
