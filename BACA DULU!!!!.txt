@@ -13,10 +13,6 @@ atau via github lansgung
 untuk panduan git secara singkat bisa lihat di:
 http://rogerdudler.github.io/git-guide/index.id.html
 
-intinya di dalam git (silahkan dikoreksi jika salah hehe)
-upload file baru harus git push bukan pull
-update file baru harus git pull
-
 SEBELUM MENJALANKAN
 -buat database dengan nama "collab"
 -jangan migrate dari laravel karena saya modifikasi database via
