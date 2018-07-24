@@ -1,0 +1,45 @@
+Laravel ini menggunakan versi 5.5
+
+proyek website desa untuk kegiatan KKN 44 UNMUL
+
+website ini belum selesai sepenuhnya dan sengaja saya share di github agar teman"
+yang kesulitan menyelesaikan proker wajib KKN44 UNMUL atau ingin melihat 
+contoh website desa yang saya buat sendiri, jika berminat gabung dalam pengembangan
+website ini / kolaborasi bisa PM ke:
+FB : https://web.facebook.com/reza.pointblank02
+Line : meidyfachreza
+atau via github lansgung
+
+SEBELUM MENJALANKAN
+-buat database dengan nama "collab"
+-jangan migrate dari laravel karena saya modifikasi database via
+ phpmyadmin (lagi males via laravel)
+-jangan lupa import databasenya "collab.sql"
+-jika gagal "php artisan serv" silahkan cek apakah folder vendor ada
+
+"tidak ada yang tidak mungkin di era modern saat ini"
+"jika bingung/error ada mbah goggle"
+"seorang IT selalu dituntut up to date karena dunia IT saat ini terus
+berkembang begitu cepat"
+"jika males berkembang atau eksplorasi tentang IT mending g usah masuk IT"
+"keep learning by doing"
+~~~hanya unek" hehe~~~
+
+fungsional utama yang ada yaitu:
+-bisa posting artikel
+-bisa Komentar
+-bisa posting Gambar pada galeri
+-mutiuser (Admin,Penulis,Biasa)
+user admin:
+email	Admin@admin.com
+pass	admin7
+
+user penulis:
+email	Penulis@penulis.com
+pass	penulis
+-sisanya bisa ditambahkan sendiri
+
+untuk menambah user baru silahkan register dan rolenya saat mendaftar otomatis
+sebagai user "Biasa" dan jika mau merubah masih secara manual lewat phpmyadmin
+
+untuk front end masih agak kurang karena saya lebih bakat di back end

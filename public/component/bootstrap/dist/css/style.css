@@ -1,0 +1,253 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.nav-sm .profile {
+    display: none
+}
+
+.clearfix:after,
+form:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden
+}
+
+.profile_pic {
+    width: 35%;
+    float: left
+}
+.img-circle.profile_img {
+    width: 70%;
+    background: #fff;
+    margin-left: 15%;
+    z-index: 1000;
+    position: inherit;
+    margin-top: 10px;
+    border: 1px solid rgba(52, 73, 94, 0.44);
+    padding: 4px
+}
+
+.profile_info {
+    padding: 25px 10px 0;
+    width: 65%;
+    float: left
+}
+
+.breadcrumb {
+    background: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 0;}
+
+/*-- 22. Comment-Respond --*/
+
+.comment-respond h4,
+.comments-area .comment-heading {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 600;
+    color: #434345;
+}
+
+.comments-list,
+.comments-list ul {
+    list-style: none;
+}
+
+.comments-list .comment {
+    position: relative;
+    padding-left: 130px;
+}
+
+.comments-list .comment .comment-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 3px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+.comments-list .comment .comment-content .comment-header {
+    color: #434345
+}
+
+.comments-list .comment .comment-content .comment-header h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.comments-list li li .comment .comment-pic {
+    width: 80px;
+    height: 80px;
+}
+
+.comments-list li {
+    margin-bottom: 0px;
+}
+
+/*-- 23. Form-Stype --*/
+
+.form-control {
+    border-radius: 2px;
+    padding: 15px 20px;
+    height: auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-double .box {
+    width: calc(50% - 15px);
+    float: left;
+}
+
+.form-double .box_auth {
+    width: calc(50% - 15px);
+    float: left;
+}
+
+.form-double .box.last {
+    float: right;
+}
+
+
+/*postingan*/
+
+
+
+.sidebar {
+  padding-left: 5em;
+}
+
+/*custom      */
+.post {
+    display: none
+}
+
+.post_pic {
+    width: 35%;
+    float: left;
+}
+.post_img {
+    width: 70%;
+    background: #fff;
+    margin-left: 5%;
+    z-index: 1000;
+    position: inherit;
+    margin-top: 10px;
+    border: 1px solid rgba(52, 73, 94, 0.44);
+    padding: 4px
+}
+
+.post_info {
+    margin-left: -40px;
+    padding: 25px 10px 0;
+    width: 65%;
+    float: left
+}
+
+/*custom      */
+
+
+.post-entry-horzontal {
+  margin-bottom: 0px;
+}
+
+.post-entry-horzontal a {
+  display: table;
+  width: 100%;
+}
+
+.post-entry-horzontal a .image, .post-entry-horzontal a .text {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+@media (max-width: 767.98px) {
+  .post-entry-horzontal a .image, .post-entry-horzontal a .text {
+    display: block;
+  }
+}
+
+.post-entry-horzontal a .image {
+  width: 200px;
+  background-size: cover;
+  background-position: center center;
+}
+
+@media (max-width: 767.98px) {
+  .post-entry-horzontal a .image {
+    width: 100%;
+    height: 200px;
+  }
+}
+
+.post-entry-horzontal a .text {
+  padding: 30px;
+  width: calc(100 - 200px);
+  border: 1px solid #e6e6e6;
+  border-left: none;
+}
+
+@media (max-width: 767.98px) {
+  .post-entry-horzontal a .text {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #e6e6e6;
+    border-top: none;
+  }
+}
+
+.post-entry-horzontal a .text h2 {
+  font-size: 20px;
+}
+
+.post-entry-horzontal a .text p {
+  color: #999999;
+  margin-bottom: 30px;
+}
+
+.post-entry-horzontal a:hover {
+  -webkit-box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.tengah {
+ text-align: center;
+}
+
+/*paralax*/
+body, html {
+    height: 100%;
+    color: #777;
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
